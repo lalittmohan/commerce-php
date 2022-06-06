@@ -23,7 +23,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test:links": "remark src/pages --quiet --frail --ignore-pattern src/pages/module-reference/**/*.md" 
+    "test:links": "remark src/pages --quiet --frail" 
   },
   "remarkConfig": {
     "plugins": [
